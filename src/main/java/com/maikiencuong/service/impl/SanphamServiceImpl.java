@@ -32,7 +32,7 @@ public class SanphamServiceImpl implements SanphamService {
 	}
 
 	public List<Sanpham> getAll() {
-		return sanphamRepository.findAll().subList(0, 10);
+		return sanphamRepository.top10();
 	}
 
 }

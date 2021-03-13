@@ -32,7 +32,7 @@ public class NhacungcapServiceImpl implements NhacungcapService {
 	}
 
 	public List<Nhacungcap> getAll() {
-		return nhacungcapRepository.findAll().subList(0, 10);
+		return nhacungcapRepository.top10();
 	}
 
 }

@@ -32,7 +32,7 @@ public class LoaisanphamServiceImpl implements LoaisanphamService {
 	}
 
 	public List<Loaisanpham> getAll() {
-		return loaisanphamRepository.findAll().subList(0, 10);
+		return loaisanphamRepository.top10();
 	}
 
 }

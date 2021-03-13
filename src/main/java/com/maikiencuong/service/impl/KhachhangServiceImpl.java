@@ -32,7 +32,7 @@ public class KhachhangServiceImpl implements KhachhangService {
 	}
 
 	public List<Khachhang> getAll() {
-		return khachhangRepository.findAll().subList(0, 10);
+		return khachhangRepository.top10();
 	}
 
 }

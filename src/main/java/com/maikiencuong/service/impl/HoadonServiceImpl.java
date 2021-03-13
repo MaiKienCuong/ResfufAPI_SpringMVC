@@ -32,7 +32,7 @@ public class HoadonServiceImpl implements HoadonService {
 	}
 
 	public List<Hoadon> getAll() {
-		return hoadonRepository.findAll().subList(0, 10);
+		return hoadonRepository.top10();
 	}
 
 }

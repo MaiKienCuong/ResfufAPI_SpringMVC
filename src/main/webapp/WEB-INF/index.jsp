@@ -8,16 +8,16 @@
 </head>
 <body>
 	<h1>resful web api linh kien may tinh</h1>
-	<a href="api/nhanviens">danh sach nhan vien</a>
+	<a href="api/nhanviens">top 10 danh sach nhan vien</a>
 	<br>
-	<a href="api/hoadons">danh sach hoa don</a>
+	<a href="api/hoadons">top 10 danh sach hoa don</a>
 	<br>
-	<a href="api/sanphams">danh sach san pham</a>
+	<a href="api/sanphams">top 10 danh sach san pham</a>
 	<br>
-	<a href="api/loaisanphams">danh sach loai san pham</a>
+	<a href="api/loaisanphams">top 10 danh sach loai san pham</a>
 	<br>
-	<a href="api/nhacungcaps">danh sach nha cung cap</a>
+	<a href="api/nhacungcaps">top 10 danh sach nha cung cap</a>
 	<br>
-	<a href="api/khachhangs">danh sach khach hang</a>
+	<a href="api/khachhangs">top 10 danh sach khach hang</a>
 </body>
 </html>

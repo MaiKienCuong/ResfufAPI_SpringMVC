@@ -32,7 +32,7 @@ public class NhanvienServiceImpl implements NhanvienService {
 	}
 
 	public List<Nhanvien> getAll() {
-		return nhanvienRepository.findAll().subList(0, 10);
+		return nhanvienRepository.top10();
 	}
 
 }
