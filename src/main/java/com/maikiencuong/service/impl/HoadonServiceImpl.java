@@ -35,4 +35,12 @@ public class HoadonServiceImpl implements HoadonService {
 		return hoadonRepository.top10();
 	}
 
+	public List<Hoadon> getByIdNhanvien(String id) {
+		return hoadonRepository.getByIdNhanvien(id);
+	}
+
+	public List<Hoadon> getByIdKhachhang(String id) {
+		return hoadonRepository.getByIdKhachhang(id);
+	}
+
 }

@@ -35,11 +35,13 @@ public class Hoadon {
 	@ManyToOne
 	@JoinColumn(name = "makhachhang")
 	@ToString.Exclude
+	@JsonView(Views.Public.class)
 	private Khachhang khachhang;
 
 	@ManyToOne
 	@JoinColumn(name = "manhanvien")
 	@ToString.Exclude
+	@JsonView(Views.Public.class)
 	private Nhanvien nhanvien;
 
 	@ToString.Exclude

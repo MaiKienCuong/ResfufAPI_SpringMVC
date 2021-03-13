@@ -26,7 +26,7 @@ public class NhanvienController {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@JsonView(Views.Public.class)
 	@GetMapping("/nhanviens")
-	public ResponseEntity<List<Nhanvien>> listAllAnswers() {
+	public ResponseEntity<List<Nhanvien>> listNhanvien() {
 		List<Nhanvien> nhanviens = nhanvienService.getAll();
 		if (nhanviens.isEmpty()) {
 			return new ResponseEntity(HttpStatus.NOT_FOUND);

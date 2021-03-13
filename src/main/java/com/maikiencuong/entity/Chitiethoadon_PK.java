@@ -24,4 +24,5 @@ public class Chitiethoadon_PK implements Serializable {
 
 	@JsonView(Views.Public.class)
 	private String masanpham;
+
 }

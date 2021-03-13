@@ -26,7 +26,7 @@ public class LoaisanphamController {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@JsonView(Views.Public.class)
 	@GetMapping("/loaisanphams")
-	public ResponseEntity<List<Loaisanpham>> listAllAnswers() {
+	public ResponseEntity<List<Loaisanpham>> listLoaisanpham() {
 		List<Loaisanpham> loaisanphams = loaisanphamService.getAll();
 		if (loaisanphams.isEmpty()) {
 			return new ResponseEntity(HttpStatus.NOT_FOUND);

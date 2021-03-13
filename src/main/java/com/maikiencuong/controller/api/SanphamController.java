@@ -26,7 +26,7 @@ public class SanphamController {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@JsonView(Views.Public.class)
 	@GetMapping("/sanphams")
-	public ResponseEntity<List<Sanpham>> listAllAnswers() {
+	public ResponseEntity<List<Sanpham>> listSanpham() {
 		List<Sanpham> sanphams = sanphamService.getAll();
 		if (sanphams.isEmpty()) {
 			return new ResponseEntity(HttpStatus.NOT_FOUND);

@@ -26,7 +26,7 @@ public class NhacungcapController {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@JsonView(Views.Public.class)
 	@GetMapping("/nhacungcaps")
-	public ResponseEntity<List<Nhacungcap>> listAllAnswers() {
+	public ResponseEntity<List<Nhacungcap>> listNhacungcap() {
 		List<Nhacungcap> nhacungcaps = nhacungcapService.getAll();
 		if (nhacungcaps.isEmpty()) {
 			return new ResponseEntity(HttpStatus.NOT_FOUND);

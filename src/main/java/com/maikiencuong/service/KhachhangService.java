@@ -15,4 +15,6 @@ public interface KhachhangService {
 	public Khachhang getById(String id);
 
 	public List<Khachhang> getAll();
+
+	public Khachhang getByPhone(String sdt);
 }

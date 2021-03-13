@@ -15,4 +15,9 @@ public interface HoadonService {
 	public Hoadon getById(String id);
 
 	public List<Hoadon> getAll();
+
+	public List<Hoadon> getByIdNhanvien(String id);
+
+	public List<Hoadon> getByIdKhachhang(String id);
+
 }

@@ -35,4 +35,8 @@ public class KhachhangServiceImpl implements KhachhangService {
 		return khachhangRepository.top10();
 	}
 
+	public Khachhang getByPhone(String sdt) {
+		return khachhangRepository.getByPhone(sdt);
+	}
+
 }
